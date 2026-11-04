@@ -12,7 +12,7 @@
 ### A little corner of the internet, built with curiosity and code.
 
 [![Made with Acode](https://img.shields.io/badge/Made%20with-Acode-4B8BBE?style=for-the-badge&logo=android&logoColor=white)](https://acode.app/)
-[![GitHub](https://img.shields.io/badge/GitHub-Pandas--indo-181717?style=for-the-badge&logo=github)](https://github.com/Pandas-indo)
+[![GitHub](https://img.shields.io/badge/GitHub-Pandas--indo-181717?style=for-the-badge&logo=github)](https://github.com/pandaboy477)
 
 </div>
 
