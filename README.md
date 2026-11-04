@@ -5,7 +5,7 @@
 
 <div align="center">
 
-<img src="assets/panda-coding.svg" alt="Animated panda coding at a desk" width="100%" />
+<img src="assets/panda-developer.gif" alt="Panda coding animation" width="100%" />
 
 # 🐼 Panda
 
