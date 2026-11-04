@@ -47,5 +47,5 @@ This repository is maintained by **Pandaboy**. The README artwork and presentati
 **Thanks for stopping by!**  
 *Keep learning. Keep building. Stay curious.* ✨
 
-**[i make README.md from chatgpt, not my full repo. that why i'm not vibe coder]**
+**[i make README.md from chatgpt, i'm not use AI for coding my repo. that why i'm not vibe coder]**
 </div>
