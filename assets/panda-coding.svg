@@ -1,50 +1,72 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 430" role="img" aria-labelledby="title desc">
-<title id="title">Panda coding at a desk</title>
-<desc id="desc">A round, chubby black-and-white giant panda with black ears, eye patches, arms and legs, typing at a laptop.</desc>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 700" role="img" aria-labelledby="title desc">
+<title id="title">Panda developer working on a laptop</title>
+<desc id="desc">A cute, round, seated giant panda with black ears, eye patches, dark arms and legs, a white face and belly, typing on a laptop.</desc>
 <defs>
- <linearGradient id="bg" x2="1" y2="1"><stop stop-color="#101a2b"/><stop offset="1" stop-color="#24334b"/></linearGradient>
- <linearGradient id="screen" x2="0" y2="1"><stop stop-color="#183b50"/><stop offset="1" stop-color="#0d1929"/></linearGradient>
+ <linearGradient id="bg" x2="0" y2="1"><stop stop-color="#f7f9fc"/><stop offset="1" stop-color="#e9eff5"/></linearGradient>
+ <linearGradient id="fur" x2="1" y2="1"><stop stop-color="#73777e"/><stop offset="1" stop-color="#414b57"/></linearGradient>
+ <linearGradient id="whitefur" x2="1" y2="1"><stop stop-color="#fff"/><stop offset="1" stop-color="#e8edf1"/></linearGradient>
+ <linearGradient id="laptop" x2="0" y2="1"><stop stop-color="#f5f7fa"/><stop offset="1" stop-color="#aeb8c3"/></linearGradient>
+ <filter id="shadow" x="-30%" y="-30%" width="160%" height="170%"><feGaussianBlur stdDeviation="10"/></filter>
 </defs>
-<rect width="900" height="430" rx="26" fill="url(#bg)"/>
-<circle cx="735" cy="82" r="42" fill="#3b82a0" opacity=".12"/><circle cx="160" cy="110" r="65" fill="#6db7c8" opacity=".08"/>
-<path d="M70 344H830" stroke="#547087" stroke-width="4" stroke-linecap="round"/>
-<rect x="90" y="78" width="210" height="122" rx="12" fill="#14273a" stroke="#527187" stroke-width="3"/>
-<path d="M108 100h174M108 117h120M108 134h145" stroke="#6c91a8" stroke-width="5" stroke-linecap="round" opacity=".65"/>
-<g fill="#9ad6dc"><circle cx="117" cy="160" r="5"/><circle cx="139" cy="160" r="5"/><circle cx="161" cy="160" r="5"/></g>
-<rect x="680" y="125" width="105" height="105" rx="10" fill="#1a2d3d" stroke="#527187" stroke-width="3"/>
-<path d="M697 150h70M697 168h48M697 186h58" stroke="#7ab7c5" stroke-width="5" stroke-linecap="round"/>
-<!-- Sturdy panda body: black limbs frame a broad white belly -->
+<rect width="900" height="700" rx="28" fill="url(#bg)"/>
+<ellipse cx="454" cy="625" rx="270" ry="24" fill="#263545" opacity=".14" filter="url(#shadow)"/>
+<!-- seated round body and rear silhouette -->
+<path d="M288 493 C267 398 306 300 376 263 C435 230 559 242 626 306 C686 363 696 489 665 575 C637 644 548 662 420 650 C323 642 268 581 288 493Z" fill="url(#whitefur)" stroke="#202833" stroke-width="7"/>
+<!-- broad dark shoulder mantle -->
+<path d="M300 466 C293 365 336 292 401 270 C469 246 559 261 617 319 C649 352 664 406 654 472 C612 505 554 509 500 483 C438 452 370 464 300 505Z" fill="url(#fur)" stroke="#202833" stroke-width="6"/>
+<!-- white belly patch -->
+<path d="M365 484 C410 449 474 455 516 483 C565 516 581 580 555 629 C513 650 433 650 379 626 C343 592 336 527 365 484Z" fill="#fbfcfc" stroke="#d9e0e6" stroke-width="4"/>
+<!-- legs: chunky seated feet -->
+<path d="M345 526 C289 520 246 558 231 601 C214 651 258 674 333 670 L444 655 C466 646 471 611 448 581 C422 548 388 530 345 526Z" fill="url(#fur)" stroke="#202833" stroke-width="7"/>
+<path d="M511 526 C452 525 414 561 405 609 C397 657 442 680 519 674 L626 656 C667 647 671 606 646 574 C614 538 559 525 511 526Z" fill="url(#fur)" stroke="#202833" stroke-width="7"/>
+<!-- soles and toe pads -->
+<g fill="#b8a39c" stroke="#202833" stroke-width="5">
+ <ellipse cx="282" cy="621" rx="17" ry="22" transform="rotate(-20 282 621)"/>
+ <ellipse cx="320" cy="613" rx="15" ry="20" transform="rotate(-8 320 613)"/>
+ <ellipse cx="352" cy="623" rx="14" ry="18"/>
+ <ellipse cx="315" cy="647" rx="31" ry="27"/>
+ <ellipse cx="464" cy="622" rx="16" ry="21" transform="rotate(-15 464 622)"/>
+ <ellipse cx="501" cy="611" rx="15" ry="20"/>
+ <ellipse cx="536" cy="621" rx="14" ry="18" transform="rotate(12 536 621)"/>
+ <ellipse cx="501" cy="649" rx="31" ry="27"/>
+</g>
+<!-- head, with round black ears -->
+<circle cx="337" cy="147" r="34" fill="#252c35" stroke="#141a22" stroke-width="6"/>
+<circle cx="523" cy="143" r="35" fill="#252c35" stroke="#141a22" stroke-width="6"/>
+<circle cx="337" cy="147" r="19" fill="#737d88"/><circle cx="523" cy="143" r="20" fill="#737d88"/>
+<path d="M280 178 C292 99 357 64 435 69 C518 72 572 124 579 210 C585 284 538 344 451 351 C361 357 284 315 267 250 C259 222 264 198 280 178Z" fill="url(#whitefur)" stroke="#202833" stroke-width="7"/>
+<!-- eye patches and eyes -->
+<ellipse cx="349" cy="210" rx="25" ry="39" fill="#73777e" transform="rotate(18 349 210)"/>
+<ellipse cx="472" cy="211" rx="31" ry="42" fill="#73777e" transform="rotate(-18 472 211)"/>
+<ellipse cx="354" cy="218" rx="7" ry="10" fill="#111820"/>
+<ellipse cx="470" cy="219" rx="7" ry="10" fill="#111820"/>
+<!-- muzzle and smile -->
+<ellipse cx="383" cy="253" rx="22" ry="13" fill="#111820"/>
+<path d="M382 264 C365 273 361 289 370 302 M384 267 C411 280 435 277 451 258" fill="none" stroke="#202833" stroke-width="4" stroke-linecap="round"/>
+<!-- left arm behind laptop -->
+<path d="M319 343 C281 369 259 410 250 455 C245 482 259 501 280 499 C302 496 311 470 321 445 L366 381Z" fill="url(#fur)" stroke="#202833" stroke-width="7"/>
+<!-- right thick arm draped over keyboard -->
+<path d="M553 334 C604 360 627 401 612 447 C601 481 564 499 523 506 C485 513 454 503 452 480 C449 458 472 441 497 426 C518 413 527 382 523 359Z" fill="url(#fur)" stroke="#202833" stroke-width="7"/>
+<!-- laptop screen -->
 <g>
- <ellipse cx="450" cy="277" rx="132" ry="91" fill="#202a35"/>
- <ellipse cx="450" cy="274" rx="91" ry="82" fill="#f4f5f2"/>
- <ellipse cx="354" cy="277" rx="37" ry="76" fill="#202a35" transform="rotate(22 354 277)"/>
- <ellipse cx="546" cy="277" rx="37" ry="76" fill="#202a35" transform="rotate(-22 546 277)"/>
- <ellipse cx="388" cy="337" rx="58" ry="31" fill="#202a35"/>
- <ellipse cx="512" cy="337" rx="58" ry="31" fill="#202a35"/>
+ <path d="M185 330 Q181 320 196 322 L445 339 Q458 340 463 352 L526 518 Q530 532 515 532 L263 510 Q251 509 247 496Z" fill="url(#laptop)" stroke="#202833" stroke-width="8" stroke-linejoin="round"/>
+ <path d="M203 341 L439 357 L497 506 L266 488Z" fill="#dce3e9" stroke="#9daab6" stroke-width="4"/>
+ <path d="M214 349 L248 352 L302 494 L273 491Z" fill="#fff" opacity=".35"/>
+ <path d="M263 510 L515 532 L628 515 L526 499 L496 507Z" fill="#aab5bf" stroke="#202833" stroke-width="6" stroke-linejoin="round"/>
+ <path d="M343 510 L502 521 L544 513 L390 501Z" fill="#65717d" stroke="#202833" stroke-width="3"/>
+ <path d="M375 506 L467 512" stroke="#d6dde3" stroke-width="4" stroke-linecap="round"/>
+ <path d="M310 387 C321 372 343 376 351 392 C362 374 385 382 386 400 C387 419 354 439 350 442 C345 439 306 413 310 387Z" fill="#fff" stroke="#333d48" stroke-width="3"/>
 </g>
-<!-- Ears are clearly visible above the round white head -->
-<g>
- <circle cx="369" cy="139" r="39" fill="#202a35"/>
- <circle cx="531" cy="139" r="39" fill="#202a35"/>
- <ellipse cx="450" cy="204" rx="111" ry="91" fill="#f4f5f2"/>
- <ellipse cx="408" cy="198" rx="25" ry="34" fill="#202a35" transform="rotate(22 408 198)"/>
- <ellipse cx="492" cy="198" rx="25" ry="34" fill="#202a35" transform="rotate(-22 492 198)"/>
- <ellipse cx="408" cy="198" rx="7" ry="10" fill="#fff"/>
- <ellipse cx="492" cy="198" rx="7" ry="10" fill="#fff"/>
- <ellipse cx="450" cy="231" rx="15" ry="11" fill="#26313a"/>
- <path d="M450 241q-9 13-20 3m20-3q9 13 20 3" fill="none" stroke="#26313a" stroke-width="4" stroke-linecap="round"/>
+<!-- paws resting on keys -->
+<path d="M470 460 C493 447 516 451 529 467 C542 484 527 503 505 506 C484 510 458 497 454 481Z" fill="#555d67" stroke="#202833" stroke-width="5"/>
+<path d="M251 454 C235 457 224 474 232 490 C240 506 259 512 275 501 L292 477Z" fill="#555d67" stroke="#202833" stroke-width="5"/>
+<!-- tiny typing motion -->
+<path d="M482 474l10-5m10 11l9-4" stroke="#cbd3db" stroke-width="3" stroke-linecap="round">
+ <animate attributeName="opacity" values="1;.25;1" dur="1s" repeatCount="indefinite"/>
+</path>
+<!-- chat bubble -->
+<g fill="#fff" stroke="#303944" stroke-width="3">
+ <path d="M590 294 Q590 282 603 282 H700 Q713 282 713 295 V332 Q713 345 700 345 H646 L631 361 L632 345 H603 Q590 345 590 332Z"/>
+ <circle cx="615" cy="306" r="8" fill="none"/><path d="M604 329q11-16 22 0M642 301h52M642 313h45M642 325h31" fill="none" stroke-linecap="round"/>
 </g>
-<!-- Forearms reach around the laptop -->
-<path d="M348 274q-40 3-61 34q-10 15 5 22q29 10 70-24M552 274q40 3 61 34q10 15-5 22q-29 10-70-24" fill="#202a35" stroke="#f4f5f2" stroke-width="5"/>
-<g transform="translate(315 265)">
- <path d="M0 0h270l-22 80H22z" fill="#8fa4b4"/><path d="M15 8h240l-16 60H31z" fill="#1b2938"/>
- <rect x="25" y="14" width="220" height="47" rx="5" fill="url(#screen)"/>
- <g stroke="#6fe0c1" stroke-width="4" stroke-linecap="round" opacity=".9"><path d="M43 28h70M43 40h120M43 52h55"/></g>
- <g fill="#f6c76a"><circle cx="226" cy="24" r="3"/><circle cx="226" cy="36" r="3"/></g>
- <path d="M-18 80h306l-24 17H6z" fill="#c1cbd2"/>
-</g>
-<g fill="#d7e5eb" font-family="monospace"><text x="450" y="390" text-anchor="middle" font-size="17" letter-spacing="4">PANDA DEVELOPER MODE</text></g>
-<style>
-@keyframes type{0%,100%{transform:translateY(0)}50%{transform:translateY(3px)}}
-</style>
 </svg>
