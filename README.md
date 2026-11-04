@@ -28,7 +28,7 @@ Welcome to **Panda** — my personal space on GitHub. I enjoy exploring technolo
 
 - **Editor:** [Acode](https://acode.app/)
 - **Platform:** Android
-- **Home:** [GitHub · Pandas-indo](https://github.com/Pandas-indo)
+- **Home:** [GitHub · Pandaboy](https://github.com/pandaboy477)
 
 ## 🌱 Currently
 
