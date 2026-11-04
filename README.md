@@ -38,7 +38,7 @@ Welcome to **Panda** — my personal space on GitHub. I enjoy exploring technolo
 
 ## 🐼 About this repository
 
-This repository is maintained by **Pandas-indo**. The README artwork and presentation were created and edited using **Acode**, directly from Android.
+This repository is maintained by **Pandaboy**. The README artwork and presentation were created and edited using **Acode**, directly from Android.
 
 ---
 
